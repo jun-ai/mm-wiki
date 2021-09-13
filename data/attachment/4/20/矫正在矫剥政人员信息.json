@@ -1,0 +1,108 @@
+{
+  "jobRefObjectLinks": [],
+  "globalVariables": [],
+  "componentInstances": [
+    {
+      "instanceId": "2c738fa3-fde2-46e5-9c6e-ebb81dd52739",
+      "instanceName": "表输出",
+      "component": {
+        "componentId": "sql_bulk_producer",
+        "componentName": "表输出",
+        "componentGroup": "output",
+        "componentType": "bulk_exporter",
+        "icon": "icon-output-tables",
+        "html": "out_tables",
+        "inputTypes": "structural",
+        "outputTypes": "structural",
+        "className": "com.enjoyor.enloophub.di.component.sql.bulk.BulkProducer",
+        "description": "通过数据自动建表和插入数据",
+        "author": "Feihuang Liu",
+        "organization": "Enjoyor",
+        "pluginKey": "sql_bulk_producer",
+        "artifactName": "di-sql"
+      },
+      "jobId": "52daabee-23fa-4247-b170-8e4d4573abc0",
+      "x": "-37.5",
+      "y": "-112.5",
+      "config": "RQP7O/L42wqU3r2lAoVTXrdufc2Aw6WgcoUYsfb9zwO4MiI8GRfOYPIzrbegPjYuuR44ahZb71yjmym83KBQkiH/j0W8VVTEmeier1eWgdJsqQfx19hvcErBrRfRJ9KORIkiIGAt68V3wcQOWMmXsU3tgXjOntZgYdfm/LP3PeNImD7m6WPDTibFplwoz5S7jVySTF+RiHsaxH6bCXa28Ndv7a8XWgXYqoEjR8rmiwd672EMI/E4WWrTW+ajoBiTsdSaVAq0X/ehAl0dbBJ7jlJGcChZ7tW7FyPVBHknmgdWZ/2iB8NGM5IVbi++uzd0tv2/fbqcK8SKerNiTY4dGQC85IsVkdTDjr7e+QFq1ZYY2OdQXp59gaFbMW9KQcyACDkqFE5woAA3Nw6SbqRgt+j/IqrOONgSHR8hMyeHqyq/VtEqcPDEx9+w3aYpDEmKcTU2Uh/rIhz8ifnAldJCkDG9azxYGsP/3loAjBcr2Ck6DH9so9EjfS3lz1+iaHI31/d87CA+xBYNjXqOc1z8c8SFbcUOgKx3Ld1DQgVh9aw=",
+      "instanceRefObjectLinks": [
+        {
+          "refLinkName": "3bdee042-ef4c-4cf7-8a95-ceda0ed6c5ca",
+          "objectInstance": {
+            "instanceId": "fe6e59b4-042e-4427-8d22-29729f9f79df",
+            "menuId": "d5b434d7-335b-4260-9732-5d6c2b57c17b",
+            "object": {
+              "objectId": "rdbms_client",
+              "objectName": "关系型数据库",
+              "className": "com.enjoyor.enloophub.di.component.sql.DatabaseClientFactory",
+              "icon": "rdbms_client_icon",
+              "html": "rdbms_client_html",
+              "displayName": "关系型数据库",
+              "pluginKey": "rdbms_client",
+              "artifactName": "di-sql"
+            },
+            "config": "byLD2XfN5cwM2z5TQUVjMXDy/dnbPdG936dSf4hB08aotA4UjxrSiEVoQWr7mcozu2m25Gx7Vzd9VCBAwwnY+x/dK16tNPU8u40P6evVrYv4PZ3pC+TYzqhg+kFbaXvDDqJV+Mxpbs4PyCTLyAUw17WFl/rPWsCzWKoIrf6WPeFFaEFq+5nKM+ZvhbcFnHVPaNlMXVkqbunYN87Z7dm6jQ=="
+          }
+        }
+      ]
+    },
+    {
+      "instanceId": "45e9fd6d-d22e-4496-8c19-fad75839760d",
+      "instanceName": "SQL输入",
+      "component": {
+        "componentId": "sql_consumer",
+        "componentName": "SQL输入",
+        "componentGroup": "input",
+        "componentType": "importer",
+        "icon": "icon-input-sql",
+        "html": "in_sql",
+        "inputTypes": "structural,schemaless,file,xml,json",
+        "outputTypes": "structural",
+        "className": "com.enjoyor.enloophub.di.component.sql.SqlConsumer",
+        "description": "通过SQL语句获取数据库结果集",
+        "author": "Feihuang Liu",
+        "organization": "Enjoyor",
+        "pluginKey": "sql_consumer",
+        "artifactName": "di-sql"
+      },
+      "jobId": "52daabee-23fa-4247-b170-8e4d4573abc0",
+      "x": "-337.5",
+      "y": "-112.5",
+      "config": "SXGQyIXYupxJ9KED/NixvG9At8K2wxBoUB4ekDe7YtbBwTV7UyETknR2PV+NHr9ZlpT3uBfdcvXw9KPqAV1k4f+QN64CP/zp7s3U6pGiPVZXvpaS8VJXHVwlGD/DtI/KpIfTiONJRo1fzckEDmoEMvNCMoAS3Gg+z4nVMgtw6AtnQ1HjryEZ+80JvnIxVm4nEjACXmjR7mQp9W4moIsyjEJo3lcjjMkrp3GsTtn6wnEp6B+YbBNtmaJDsNF2OFEjL9X6AkxJr4znm7xLaEhKRwlws6olHPkj96ASB4SwQCuAk2/XBuWp/9FgaZ5EtYppEw4PvgI/r/FK0MiVlhlLzcMeGGKEo7w4d86hJc0tFQVRIOdVWfWpr+1/KM7UTfPz1kQUFLcrSkul1ylVybFpdJ8Rq+4t6DtJbQWhKzJBzxWIIkHKVUvd8dag3VUtnNnCevNIBwS4gGA8rsOwAl5cuOSzCfwO5BAl2vOGNEkwxI+OAJW+C+D8RsktUNDCQRLAPZ3lqhFKpDfNCb5yMVZuJxDVhjh3YeHhOCWhRHEKPHAb6zjrXF+LwJ8Rq+4t6DtJbQWhKzJBzxXqnGai2Jwgwc83vSZyRj64EhWK/xk24h4IXDeZCB9rW/VKV9+p9SAluLEOuM22kSKzeFkgfif2rBEH5b9PRiwykC7X93YApEtWsGzSVD20oH8qFfc+lYIXT7OlFhcH8UqgN5LKI+Atjghjs8K+n4kd8GP3m6aH9M8=",
+      "instanceRefObjectLinks": [
+        {
+          "refLinkName": "d26ffd0e-77ed-4c5f-942e-d3a80e3052dd",
+          "objectInstance": {
+            "instanceId": "fe6e59b4-042e-4427-8d22-29729f9f79df",
+            "menuId": "d5b434d7-335b-4260-9732-5d6c2b57c17b",
+            "object": {
+              "objectId": "rdbms_client",
+              "objectName": "关系型数据库",
+              "className": "com.enjoyor.enloophub.di.component.sql.DatabaseClientFactory",
+              "icon": "rdbms_client_icon",
+              "html": "rdbms_client_html",
+              "displayName": "关系型数据库",
+              "pluginKey": "rdbms_client",
+              "artifactName": "di-sql"
+            },
+            "config": "byLD2XfN5cwM2z5TQUVjMXDy/dnbPdG936dSf4hB08aotA4UjxrSiEVoQWr7mcozu2m25Gx7Vzd9VCBAwwnY+x/dK16tNPU8u40P6evVrYv4PZ3pC+TYzqhg+kFbaXvDDqJV+Mxpbs4PyCTLyAUw17WFl/rPWsCzWKoIrf6WPeFFaEFq+5nKM+ZvhbcFnHVPaNlMXVkqbunYN87Z7dm6jQ=="
+          }
+        }
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "lineId": "3428902c-3f54-4dfa-b697-89800a98cc79",
+      "lineName": "连线",
+      "jobId": "52daabee-23fa-4247-b170-8e4d4573abc0",
+      "fromId": "45e9fd6d-d22e-4496-8c19-fad75839760d",
+      "toId": "2c738fa3-fde2-46e5-9c6e-ebb81dd52739",
+      "props": null,
+      "type": "normal"
+    }
+  ],
+  "caches": {
+    "links": "[{\"fromPort\":\"R\",\"toPort\":\"L\",\"key\":\"3428902c-3f54-4dfa-b697-89800a98cc79\",\"props\":null,\"name\":\"连线\",\"from\":\"45e9fd6d-d22e-4496-8c19-fad75839760d\",\"to\":\"2c738fa3-fde2-46e5-9c6e-ebb81dd52739\",\"type\":\"normal\",\"componentId\":\"sql_consumer\",\"points\":[-307,-112.5,-297,-112.5,-187.5,-112.5,-187.5,-112.50000000000003,-78.00000000000001,-112.50000000000003,-68.00000000000001,-112.50000000000003]}]"
+  }
+}

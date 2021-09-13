@@ -1,0 +1,823 @@
+2021/09/03 10:18:18.571 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8081
+2021/09/03 10:18:35.729 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 10:18:35.729 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 10:18:35.729 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 10:18:35.729 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 10:18:35.738 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 10:18:35.738 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 10:18:35.743 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 10:18:35.743 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 10:18:35.743 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 10:18:35.743 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 10:18:35.743 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 10:18:35.744 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 10:18:35.744 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 10:18:35.744 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 10:18:35.744 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 10:18:35.744 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 10:18:38.143 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 10:18:38.143 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 10:18:38.144 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 10:18:38.144 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 10:18:38.144 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 10:18:38.144 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 10:18:38.144 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 10:18:38.144 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 10:18:38.144 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 10:18:38.144 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 10:18:38.144 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 10:18:38.145 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 10:18:38.145 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 10:18:38.145 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 10:18:38.145 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 10:18:38.145 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 10:18:38.361 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 10:18:38.361 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 10:18:38.361 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 10:18:38.361 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 10:18:38.361 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 10:18:38.361 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 10:18:38.361 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 10:18:38.361 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 10:18:38.361 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 10:18:38.361 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 10:18:38.361 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 10:18:38.361 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 10:18:38.361 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 10:18:38.361 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 10:18:38.361 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 10:18:38.361 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 10:29:16.029 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8081
+2021/09/03 10:31:22.580 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8081
+2021/09/03 10:31:30.368 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 10:31:30.368 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 10:31:30.368 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 10:31:30.368 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 10:31:30.369 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 10:31:30.369 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 10:31:30.369 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 10:31:30.369 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 10:31:30.369 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 10:31:30.369 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 10:31:30.372 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 10:31:30.372 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 10:31:30.372 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 10:31:30.372 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 10:31:30.372 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 10:31:30.372 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 10:31:35.367 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 10:31:35.367 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 10:31:35.367 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 10:31:35.367 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 10:31:35.367 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 10:31:35.367 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 10:31:35.367 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 10:31:35.367 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 10:31:35.367 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 10:31:35.367 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 10:31:35.367 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 10:31:35.367 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 10:31:35.367 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 10:31:35.367 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 10:31:35.367 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 10:31:35.367 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 10:31:35.553 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 10:31:35.553 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 10:31:35.553 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 10:31:35.553 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 10:31:35.553 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 10:31:35.553 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 10:31:35.553 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 10:31:35.553 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 10:31:35.554 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 10:31:35.554 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 10:31:35.554 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 10:31:35.554 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 10:31:35.554 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 10:31:35.554 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 10:31:35.554 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 10:31:35.554 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 10:36:27.483 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8081
+2021/09/03 10:36:41.432 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 10:36:41.433 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 10:36:41.433 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 10:36:41.434 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 10:36:41.434 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 10:36:41.434 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 10:36:41.434 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 10:36:41.434 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 10:36:41.435 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 10:36:41.435 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 10:36:41.435 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 10:36:41.435 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 10:36:41.435 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 10:36:41.436 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 10:36:41.436 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 10:36:41.436 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 11:04:38.266 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8081
+2021/09/03 11:04:54.360 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 11:04:54.360 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 11:04:54.360 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 11:04:54.360 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 11:04:54.360 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 11:04:54.360 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 11:04:54.360 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 11:04:54.366 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 11:04:54.367 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 11:04:54.367 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 11:04:54.368 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 11:04:54.369 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 11:04:54.369 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 11:04:54.370 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 11:04:54.370 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 11:04:54.370 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 11:07:08.296 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8081
+2021/09/03 11:07:17.216 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 11:07:17.216 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 11:07:17.216 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 11:07:17.216 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 11:07:17.216 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 11:07:17.217 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 11:07:17.217 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 11:07:17.217 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 11:07:17.217 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 11:07:17.217 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 11:07:17.217 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 11:07:17.218 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 11:07:17.218 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 11:07:17.218 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 11:07:17.218 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 11:07:17.218 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 11:07:17.409 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 11:07:17.409 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 11:07:17.409 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 11:07:17.409 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 11:07:17.409 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 11:07:17.409 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 11:07:17.409 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 11:07:17.409 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 11:07:17.410 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 11:07:17.411 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 11:07:17.411 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 11:07:17.411 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 11:07:17.411 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 11:07:17.411 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 11:07:17.411 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 11:07:17.411 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 11:07:31.369 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 11:07:31.369 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 11:07:31.369 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 11:07:31.369 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 11:07:31.369 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 11:07:31.369 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 11:07:31.369 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 11:07:31.369 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 11:07:31.369 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 11:07:31.369 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 11:07:31.369 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 11:07:31.369 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 11:07:31.369 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 11:07:31.369 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 11:07:31.369 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 11:07:31.371 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 11:13:01.835 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8081
+2021/09/03 11:13:12.169 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 11:13:12.169 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 11:13:12.169 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 11:13:12.169 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 11:13:12.169 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 11:13:12.169 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 11:13:12.172 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 11:13:12.172 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 11:13:12.172 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 11:13:12.172 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 11:13:12.176 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 11:13:12.176 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 11:13:12.176 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 11:13:12.176 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 11:13:12.176 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 11:13:12.176 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 11:13:29.925 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 11:13:29.925 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 11:13:29.925 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 11:13:29.925 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 11:13:29.925 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 11:13:29.925 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 11:13:29.925 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 11:13:29.925 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 11:13:29.925 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 11:13:29.925 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 11:13:29.925 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 11:13:29.925 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 11:13:29.925 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 11:13:29.925 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 11:13:29.925 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 11:13:29.925 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 11:13:30.120 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 11:13:30.120 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 11:13:30.120 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 11:13:30.120 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 11:13:30.120 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 11:13:30.120 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 11:13:30.120 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 11:13:30.120 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 11:13:30.120 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 11:13:30.120 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 11:13:30.120 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 11:13:30.120 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 11:13:30.120 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 11:13:30.120 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 11:13:30.120 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 11:13:30.121 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 11:13:42.554 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 11:13:42.554 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 11:13:42.554 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 11:13:42.554 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 11:13:42.554 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 11:13:42.554 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 11:13:42.554 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 11:13:42.554 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 11:13:42.554 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 11:13:42.554 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 11:13:42.554 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 11:13:42.554 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 11:13:42.554 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 11:13:42.554 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 11:13:42.555 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 11:13:42.555 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 11:19:48.662 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 11:19:48.662 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 11:19:48.662 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 11:19:48.662 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 11:19:48.662 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 11:19:48.662 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 11:19:48.662 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 11:19:48.662 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 11:19:48.662 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 11:19:48.667 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 11:19:48.667 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 11:19:48.667 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 11:19:48.667 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 11:19:48.667 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 11:19:48.672 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 11:19:48.672 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 11:36:33.549 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8081
+2021/09/03 11:36:44.780 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 11:36:44.780 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 11:36:44.780 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 11:36:44.780 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 11:36:44.780 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 11:36:44.780 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 11:36:44.780 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 11:36:44.780 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 11:36:44.780 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 11:36:44.781 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 11:36:44.781 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 11:36:44.781 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 11:36:44.781 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 11:36:44.781 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 11:36:44.781 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 11:36:44.781 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 11:36:45.726 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 11:36:45.726 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 11:36:45.726 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 11:36:45.726 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 11:36:45.726 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 11:36:45.726 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 11:36:45.726 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 11:36:45.726 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 11:36:45.726 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 11:36:45.727 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 11:36:45.727 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 11:36:45.727 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 11:36:45.727 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 11:36:45.727 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 11:36:45.727 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 11:36:45.727 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 11:36:45.932 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 11:36:45.932 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 11:36:45.932 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 11:36:45.932 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 11:36:45.932 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 11:36:45.932 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 11:36:45.932 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 11:36:45.932 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 11:36:45.932 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 11:36:45.932 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 11:36:45.932 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 11:36:45.932 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 11:36:45.932 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 11:36:45.932 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 11:36:45.932 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 11:36:45.932 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 11:37:34.992 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8081
+2021/09/03 11:37:42.052 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 11:37:42.052 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 11:37:42.052 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 11:37:42.052 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 11:37:42.052 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 11:37:42.052 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 11:37:42.052 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 11:37:42.052 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 11:37:42.052 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 11:37:42.052 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 11:37:42.052 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 11:37:42.052 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 11:37:42.052 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 11:37:42.052 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 11:37:42.052 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 11:37:42.052 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 11:38:15.575 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 11:38:15.576 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 11:38:15.576 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 11:38:15.576 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 11:38:15.576 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 11:38:15.576 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 11:38:15.576 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 11:38:15.576 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 11:38:15.577 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 11:38:15.578 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 11:38:15.578 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 11:38:15.578 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 11:38:15.578 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 11:38:15.578 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 11:38:15.578 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 11:38:15.579 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 11:38:34.599 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 11:38:34.599 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 11:38:34.599 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 11:38:34.599 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 11:38:34.599 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 11:38:34.599 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 11:38:34.599 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 11:38:34.599 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 11:38:34.599 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 11:38:34.599 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 11:38:34.599 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 11:38:34.599 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 11:38:34.599 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 11:38:34.599 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 11:38:34.599 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 11:38:34.599 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 11:41:49.246 [I] [asm_amd64.s:1581]  http server Running on http://0.0.0.0:8081
+2021/09/03 11:43:17.976 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8081
+2021/09/03 11:43:25.418 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 11:43:25.418 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 11:43:25.418 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 11:43:25.418 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 11:43:25.418 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 11:43:25.418 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 11:43:25.418 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 11:43:25.418 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 11:43:25.418 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 11:43:25.418 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 11:43:25.418 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 11:43:25.418 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 11:43:25.418 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 11:43:25.418 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 11:43:25.418 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 11:43:25.419 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 11:44:00.541 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 11:44:00.541 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 11:44:00.542 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 11:44:00.542 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 11:44:00.542 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 11:44:00.542 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 11:44:00.542 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 11:44:00.542 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 11:44:00.542 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 11:44:00.542 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 11:44:00.542 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 11:44:00.542 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 11:44:00.542 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 11:44:00.542 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 11:44:00.542 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 11:44:00.542 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 11:44:24.924 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 11:44:24.924 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 11:44:24.924 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 11:44:24.924 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 11:44:24.924 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 11:44:24.924 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 11:44:24.924 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 11:44:24.924 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 11:44:24.924 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 11:44:24.924 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 11:44:24.924 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 11:44:24.924 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 11:44:24.924 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 11:44:24.925 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 11:44:24.925 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 11:44:24.925 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 11:44:27.642 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 11:44:27.642 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 11:44:27.642 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 11:44:27.642 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 11:44:27.642 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 11:44:27.642 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 11:44:27.642 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 11:44:27.642 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 11:44:27.642 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 11:44:27.642 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 11:44:27.642 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 11:44:27.642 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 11:44:27.642 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 11:44:27.642 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 11:44:27.642 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 11:44:27.642 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 11:44:27.845 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 11:44:27.845 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 11:44:27.845 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 11:44:27.845 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 11:44:27.845 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 11:44:27.845 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 11:44:27.845 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 11:44:27.845 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 11:44:27.845 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 11:44:27.845 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 11:44:27.845 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 11:44:27.845 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 11:44:27.845 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 11:44:27.845 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 11:44:27.845 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 11:44:27.845 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 11:44:28.021 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 11:44:28.021 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 11:44:28.021 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 11:44:28.021 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 11:44:28.021 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 11:44:28.021 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 11:44:28.021 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 11:44:28.021 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 11:44:28.021 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 11:44:28.021 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 11:44:28.021 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 11:44:28.021 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 11:44:28.021 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 11:44:28.021 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 11:44:28.022 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 11:44:28.022 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 11:44:28.363 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 11:44:28.363 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 11:44:28.363 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 11:44:28.363 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 11:44:28.363 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 11:44:28.363 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 11:44:28.364 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 11:44:28.364 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 11:44:28.364 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 11:44:28.364 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 11:44:28.364 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 11:44:28.364 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 11:44:28.364 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 11:44:28.364 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 11:44:28.364 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 11:44:28.364 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 11:44:28.540 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 11:44:28.541 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 11:44:28.541 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 11:44:28.541 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 11:44:28.541 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 11:44:28.541 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 11:44:28.541 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 11:44:28.541 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 11:44:28.541 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 11:44:28.541 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 11:44:28.541 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 11:44:28.541 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 11:44:28.541 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 11:44:28.541 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 11:44:28.541 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 11:44:28.541 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 11:44:28.715 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 11:44:28.715 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 11:44:28.715 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 11:44:28.715 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 11:44:28.715 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 11:44:28.715 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 11:44:28.715 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 11:44:28.715 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 11:44:28.715 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 11:44:28.715 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 11:44:28.715 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 11:44:28.715 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 11:44:28.715 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 11:44:28.715 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 11:44:28.715 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 11:44:28.718 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 11:44:28.893 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 11:44:28.893 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 11:44:28.893 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 11:44:28.893 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 11:44:28.893 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 11:44:28.893 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 11:44:28.893 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 11:44:28.893 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 11:44:28.893 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 11:44:28.893 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 11:44:28.894 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 11:44:28.894 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 11:44:28.894 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 11:44:28.894 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 11:44:28.894 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 11:44:28.894 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 11:44:29.079 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 11:44:29.079 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 11:44:29.079 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 11:44:29.079 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 11:44:29.080 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 11:44:29.080 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 11:44:29.080 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 11:44:29.080 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 11:44:29.080 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 11:44:29.080 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 11:44:29.080 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 11:44:29.080 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 11:44:29.080 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 11:44:29.080 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 11:44:29.080 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 11:44:29.080 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 11:44:29.245 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 11:44:29.246 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 11:44:29.246 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 11:44:29.246 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 11:44:29.246 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 11:44:29.246 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 11:44:29.246 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 11:44:29.246 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 11:44:29.246 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 11:44:29.246 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 11:44:29.246 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 11:44:29.246 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 11:44:29.246 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 11:44:29.246 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 11:44:29.246 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 11:44:29.246 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 11:44:29.438 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 11:44:29.438 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 11:44:29.438 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 11:44:29.438 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 11:44:29.438 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 11:44:29.438 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 11:44:29.438 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 11:44:29.438 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 11:44:29.438 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 11:44:29.438 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 11:44:29.438 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 11:44:29.438 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 11:44:29.438 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 11:44:29.438 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 11:44:29.438 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 11:44:29.438 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 11:44:29.605 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 11:44:29.605 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 11:44:29.605 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 11:44:29.605 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 11:44:29.606 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 11:44:29.606 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 11:44:29.606 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 11:44:29.606 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 11:44:29.606 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 11:44:29.606 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 11:44:29.606 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 11:44:29.606 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 11:44:29.606 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 11:44:29.606 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 11:44:29.606 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 11:44:29.606 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 11:44:29.790 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 11:44:29.790 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 11:44:29.790 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 11:44:29.790 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 11:44:29.790 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 11:44:29.790 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 11:44:29.790 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 11:44:29.790 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 11:44:29.790 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 11:44:29.790 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 11:44:29.790 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 11:44:29.790 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 11:44:29.790 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 11:44:29.791 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 11:44:29.792 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 11:44:29.792 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 11:44:29.979 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 11:44:29.979 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 11:44:29.979 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 11:44:29.979 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 11:44:29.979 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 11:44:29.979 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 11:44:29.979 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 11:44:29.979 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 11:44:29.979 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 11:44:29.979 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 11:44:29.979 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 11:44:29.979 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 11:44:29.980 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 11:44:29.980 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 11:44:29.980 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 11:44:29.980 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 11:44:30.163 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 11:44:30.163 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 11:44:30.163 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 11:44:30.163 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 11:44:30.164 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 11:44:30.164 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 11:44:30.164 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 11:44:30.164 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 11:44:30.164 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 11:44:30.164 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 11:44:30.164 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 11:44:30.164 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 11:44:30.165 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 11:44:30.165 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 11:44:30.165 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 11:44:30.165 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 11:44:30.331 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 11:44:30.331 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 11:44:30.331 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 11:44:30.331 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 11:44:30.332 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 11:44:30.332 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 11:44:30.332 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 11:44:30.332 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 11:44:30.332 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 11:44:30.332 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 11:44:30.332 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 11:44:30.332 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 11:44:30.332 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 11:44:30.332 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 11:44:30.332 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 11:44:30.332 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 11:44:30.525 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 11:44:30.526 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 11:44:30.526 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 11:44:30.526 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 11:44:30.526 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 11:44:30.526 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 11:44:30.526 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 11:44:30.526 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 11:44:30.526 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 11:44:30.526 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 11:44:30.526 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 11:44:30.526 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 11:44:30.526 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 11:44:30.526 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 11:44:30.526 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 11:44:30.526 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 11:44:57.249 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 11:44:57.249 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 11:44:57.249 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 11:44:57.249 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 11:44:57.249 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 11:44:57.249 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 11:44:57.249 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 11:44:57.249 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 11:44:57.249 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 11:44:57.249 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 11:44:57.249 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 11:44:57.249 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 11:44:57.250 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 11:44:57.250 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 11:44:57.250 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 11:44:57.250 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 11:44:57.436 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 11:44:57.436 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 11:44:57.436 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 11:44:57.436 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 11:44:57.436 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 11:44:57.436 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 11:44:57.436 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 11:44:57.436 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 11:44:57.436 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 11:44:57.436 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 11:44:57.436 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 11:44:57.437 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 11:44:57.437 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 11:44:57.437 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 11:44:57.437 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 11:44:57.437 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 11:45:02.454 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 11:45:02.454 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 11:45:02.454 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 11:45:02.454 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 11:45:02.454 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 11:45:02.454 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 11:45:02.454 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 11:45:02.454 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 11:45:02.454 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 11:45:02.454 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 11:45:02.454 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 11:45:02.454 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 11:45:02.455 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 11:45:02.455 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 11:45:02.455 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 11:45:02.455 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 11:50:49.382 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 11:50:49.382 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 11:50:49.382 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 11:50:49.382 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 11:50:49.382 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 11:50:49.382 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 11:50:49.382 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 11:50:49.383 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 11:50:49.383 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 11:50:49.383 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 11:50:49.383 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 11:50:49.383 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 11:50:49.383 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 11:50:49.383 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 11:50:49.383 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 11:50:49.383 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 11:51:37.236 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8081
+2021/09/03 11:52:01.993 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 11:52:01.993 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 11:52:01.994 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 11:52:01.994 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 11:52:01.994 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 11:52:01.994 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 11:52:01.994 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 11:52:01.994 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 11:52:01.994 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 11:52:01.994 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 11:52:01.994 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 11:52:01.994 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 11:52:01.994 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 11:52:01.994 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 11:52:01.994 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 11:52:01.994 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 11:53:30.059 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/03 11:53:42.041 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 11:53:42.041 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 11:53:42.041 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 11:53:42.041 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 11:53:42.042 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 11:53:42.042 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 11:53:42.042 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 11:53:42.042 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 11:53:42.042 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 11:53:42.042 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 11:53:42.042 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 11:53:42.042 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 11:53:42.042 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 11:53:42.042 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 11:53:42.042 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 11:53:42.042 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 11:54:10.878 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/03 11:54:19.527 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 11:54:19.528 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 11:54:19.528 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 11:54:19.528 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 11:54:19.528 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 11:54:19.528 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 11:54:19.528 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 11:54:19.528 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 11:54:19.528 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 11:54:19.528 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 11:54:19.528 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 11:54:19.528 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 11:54:19.528 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 11:54:19.528 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 11:54:19.528 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 11:54:19.528 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 11:54:42.588 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 11:54:42.588 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 11:54:42.588 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 11:54:42.588 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 11:54:42.588 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 11:54:42.588 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 11:54:42.588 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 11:54:42.588 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 11:54:42.588 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 11:54:42.588 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 11:54:42.588 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 11:54:42.588 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 11:54:42.588 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 11:54:42.588 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 11:54:42.588 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 11:54:42.589 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 11:54:42.774 [C] [panic.go:1038]  the request url is  /author/index
+2021/09/03 11:54:42.774 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\bin\views/author/login.html
+2021/09/03 11:54:42.774 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/03 11:54:42.774 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/03 11:54:42.774 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/03 11:54:42.774 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/03 11:54:42.774 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/03 11:54:42.774 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/03 11:54:42.774 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/03 11:54:42.774 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:25
+2021/09/03 11:54:42.774 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/03 11:54:42.774 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/03 11:54:42.774 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/03 11:54:42.774 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/03 11:54:42.774 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/03 11:54:42.775 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/03 11:57:25.905 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8081
+2021/09/03 11:58:23.269 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/04 10:15:28.555 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/04 20:40:27.752 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/07 09:47:36.991 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/07 17:32:58.476 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/07 18:27:38.881 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/07 19:27:08.316 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/08 11:48:28.364 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
