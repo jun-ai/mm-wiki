@@ -21,6 +21,8 @@ func initRouter() {
 
 	beego.Router("/", &controllers.MainController{}, "*:Index")
 	beego.Router("/author", &controllers.AuthorController{}, "*:Index")
+	beego.Router("/author/visitor", &controllers.AuthorController{}, "*:Visitor")
+
 	beego.AutoRouter(&controllers.AuthorController{})
 	beego.AutoRouter(&controllers.MainController{})
 	beego.AutoRouter(&controllers.SpaceController{})

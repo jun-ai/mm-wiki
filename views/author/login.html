@@ -58,7 +58,8 @@
                 <!--新增单点登录-->
                 <section>
                     <form role="form" action="/author/auth" method="post" onsubmit="return false">
-                        <fieldset>
+                        <!--
+                         <fieldset>
                             <div class="form-group">
                                 <div class="input-group">
                                     <span class="input-group-addon" id="username"><i class="glyphicon glyphicon-user"></i></span>
@@ -73,9 +74,9 @@
                             </div>
                             <input id="auth_login" name="submit" type="button" value="登录" class="btn btn-primary" {{if eq .sso_open "1"}} onclick="Login.ajaxSubmit(this.form)" {{else}} disabled="disabled" {{end}}>
                         </fieldset>
+                        --->
                     </form>
                 </section>
-
             </div>
             <div class="text-center" style="margin-top: 30px; font-size: 10px;color: #7d7d7d;">
             </div>

@@ -25,6 +25,69 @@ func (this *AuthorController) Index() {
 	this.viewLayout("author/login", "author")
 }
 
+func (this *AuthorController) Visitor() {
+
+	if !this.IsPost() {
+		this.ViewError("请求方式有误！")
+	}
+	username := "visitor"
+	password := "123456"
+
+	if username == "" {
+		this.jsonError("系统用户名不能为空！")
+	}
+	if strings.Contains(username, "_") {
+		this.jsonError("系统用户名不合法！")
+	}
+	if password == "" {
+		this.jsonError("密码不能为空！")
+	}
+
+	user, err := models.UserModel.GetUserByUsername(username)
+	if err != nil {
+		//fmt.Println("\n"+err.Error()+"\n")
+		this.jsonError("登录出错")
+	}
+
+	if len(user) == 0 {
+		this.jsonError("未能获取到用户信息!")
+	}
+	if user["is_forbidden"] == fmt.Sprintf("%d", models.User_Forbidden_True) {
+		this.jsonError("用户已被禁用!")
+	}
+
+	password = utils.Encrypt.Md5Encode(password)
+	if user["password"] != password {
+		this.jsonError("用户名或密码错误!")
+	}
+
+	// update last_ip and last_login_time
+	updateValue := map[string]interface{}{
+		"last_time": time.Now().Unix(),
+		"last_ip":   this.GetClientIp(),
+	}
+	_, err = models.UserModel.Update(user["user_id"], updateValue)
+	if err != nil {
+		//fmt.Println("\n"+err.Error()+"\n")
+		this.jsonError("登录出错")
+	}
+
+	// save session
+	this.SetSession("author", user)
+	// save cookie
+	identify := utils.Encrypt.Md5Encode(this.Ctx.Request.UserAgent() + this.GetClientIp() + password)
+	passportValue := utils.Encrypt.Base64Encode(username + "@" + identify)
+	passport := beego.AppConfig.String("author::passport")
+	cookieExpired, _ := beego.AppConfig.Int64("author::cookie_expired")
+	this.Ctx.SetCookie(passport, passportValue, cookieExpired)
+
+	this.Ctx.Request.PostForm.Del("password")
+
+	this.InfoLog("登录成功")
+	this.jsonSuccess("登录成功！", nil, "/main/index")
+
+}
+
 // login
 func (this *AuthorController) Login() {
 

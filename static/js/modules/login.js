@@ -29,6 +29,7 @@ var Login = {
 			$(Login.errorMessage).addClass('alert-success');
 			$(Login.errorMessage).removeClass('hidden');
 			$(Login.errorMessage + ' strong ').html(text + failedText);
+
 		}
 
 		function failed(messages, data) {
