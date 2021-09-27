@@ -109,7 +109,6 @@ func (this *AuthorController) Login() {
 
 	user, err := models.UserModel.GetUserByUsername(username)
 	if err != nil {
-		//fmt.Println("\n"+err.Error()+"\n")
 		this.jsonError("登录出错")
 	}
 	if len(user) == 0 {
@@ -120,8 +119,7 @@ func (this *AuthorController) Login() {
 	}
 
 	password = utils.Encrypt.Md5Encode(password)
-	//fmt.Println("[pswd]:"+user["password"]+"\n")
-	//fmt.Println("password:"+password+"\n")
+
 	if user["password"] != password {
 		this.jsonError("用户名或密码错误!")
 	}
