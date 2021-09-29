@@ -1,44 +1,52 @@
-2021/09/24 09:58:09.623 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
-2021/09/24 10:05:50.690 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
-2021/09/24 12:12:33.727 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
-2021/09/24 16:53:48.632 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
-2021/09/24 17:05:17.856 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
-2021/09/24 21:34:48.449 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
-2021/09/24 21:35:09.062 [server.go:3157]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
-2021/09/24 21:39:08.970 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
-2021/09/24 21:39:14.660 [server.go:3157]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
-2021/09/24 21:39:16.839 [server.go:3157]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
-2021/09/24 21:39:17.891 [server.go:3157]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
-2021/09/24 21:39:19.157 [server.go:3157]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
-2021/09/24 21:40:23.919 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
-2021/09/24 21:42:43.827 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
-2021/09/24 21:44:55.232 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
-2021/09/24 21:45:39.767 [server.go:3157]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
-2021/09/24 21:45:42.447 [server.go:3157]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
-2021/09/24 21:45:53.866 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
-2021/09/24 21:46:09.559 [server.go:3157]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
-2021/09/24 21:49:13.210 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
-2021/09/24 21:49:19.490 [server.go:3157]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
-2021/09/24 21:52:26.403 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
-2021/09/24 21:52:32.732 [server.go:3157]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
-2021/09/24 21:55:46.051 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
-2021/09/24 21:56:43.563 [server.go:3157]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
-2021/09/24 21:59:47.494 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
-2021/09/24 22:00:31.999 [server.go:3157]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
-2021/09/24 22:03:47.537 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
-2021/09/24 22:04:20.959 [C] [panic.go:1047]  the request url is  /author/visitor
-2021/09/24 22:04:20.959 [C] [panic.go:1047]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
-2021/09/24 22:04:20.959 [C] [panic.go:1047]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1047
-2021/09/24 22:04:20.959 [C] [panic.go:1047]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:221
-2021/09/24 22:04:20.959 [C] [panic.go:1047]  H:/Go_Tools/Go/go1.17/src/runtime/signal_windows.go:254
-2021/09/24 22:04:20.959 [C] [panic.go:1047]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:624
-2021/09/24 22:04:20.959 [C] [panic.go:1047]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:77
-2021/09/24 22:04:20.959 [C] [panic.go:1047]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
-2021/09/24 22:04:20.959 [C] [panic.go:1047]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
-2021/09/24 22:04:20.959 [C] [panic.go:1047]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
-2021/09/24 22:04:20.960 [C] [panic.go:1047]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
-2021/09/24 22:04:20.960 [C] [panic.go:1047]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
-2021/09/24 22:04:20.960 [C] [panic.go:1047]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
-2021/09/24 22:04:20.961 [server.go:3157]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
-2021/09/24 22:07:18.347 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
-2021/09/24 22:07:34.777 [server.go:3157]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/09/27 09:26:40.735 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/27 11:02:52.235 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/27 11:04:19.711 [server.go:3157]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/09/27 11:43:27.372 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/27 11:43:55.276 [server.go:3157]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/09/27 13:54:46.605 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/27 13:54:52.047 [server.go:3157]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/09/27 16:05:51.599 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/27 16:23:51.532 [server.go:3157]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/09/27 16:51:18.922 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/27 17:07:23.660 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/27 17:09:18.569 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/27 17:17:25.824 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/27 17:31:19.153 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/27 17:31:50.459 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/27 17:33:48.319 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/27 17:35:38.258 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/27 17:39:31.559 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/27 18:05:29.957 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/27 18:09:28.638 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/27 18:11:07.285 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/27 18:21:04.943 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/27 18:56:04.615 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/27 19:00:49.206 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/27 19:04:45.579 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/27 19:11:10.311 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/28 09:41:54.381 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/28 09:44:08.501 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/28 15:45:02.774 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/28 15:45:15.253 [C] [panic.go:1038]  the request url is  /author/visitor/
+2021/09/28 15:45:15.253 [C] [panic.go:1038]  Handler crashed with error can't find templatefile in the path:H:\Go_Tools\Go_WorkPlace\mm-wiki_20210714\views/author/visitor.html
+2021/09/28 15:45:15.253 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1038
+2021/09/28 15:45:15.253 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/template.go:75
+2021/09/28 15:45:15.253 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:306
+2021/09/28 15:45:15.253 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:257
+2021/09/28 15:45:15.253 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:237
+2021/09/28 15:45:15.253 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/template.go:158
+2021/09/28 15:45:15.253 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/base.go:12
+2021/09/28 15:45:15.254 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:94
+2021/09/28 15:45:15.254 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/28 15:45:15.254 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/28 15:45:15.254 [C] [panic.go:1038]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:855
+2021/09/28 15:45:15.254 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/28 15:45:15.254 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/28 15:45:15.254 [C] [panic.go:1038]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/28 15:46:32.873 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/28 15:48:04.023 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/28 15:50:11.909 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/28 15:53:25.224 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/28 15:55:05.081 [D] [controller.go:306]  template Execute err: template: paginator/default.html:1:5: executing "paginator/default.html" at <gt .paginator.Nums 0>: error calling gt: invalid type for comparison
+2021/09/28 15:55:23.063 [D] [controller.go:306]  template Execute err: template: paginator/default.html:1:5: executing "paginator/default.html" at <gt .paginator.Nums 0>: error calling gt: invalid type for comparison
+2021/09/28 15:56:13.872 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089

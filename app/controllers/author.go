@@ -27,9 +27,13 @@ func (this *AuthorController) Index() {
 
 func (this *AuthorController) Visitor() {
 
-	if !this.IsPost() {
-		this.ViewError("请求方式有误！")
-	}
+	ssoOpen := models.ConfigModel.GetConfigValueByKey(models.ConfigKeyAuthLogin, "0")
+	this.Data["sso_open"] = ssoOpen
+
+	// if !this.IsPost() {
+	// 	this.ViewError("请求方式有误！")
+	// }
+
 	username := "visitor"
 	password := "123456"
 
@@ -83,8 +87,7 @@ func (this *AuthorController) Visitor() {
 
 	this.Ctx.Request.PostForm.Del("password")
 
-	this.InfoLog("登录成功")
-	this.jsonSuccess("登录成功！", nil, "/main/index")
+	this.viewLayout("main/index", "main")
 
 }
 

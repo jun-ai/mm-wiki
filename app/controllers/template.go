@@ -183,7 +183,7 @@ func (this *TemplateController) ViewError(content string, redirect ...string) {
 // return json success
 func (this *TemplateController) JsonSuccess(message interface{}, data ...interface{}) {
 	url := ""
-	sleep := 2000
+	sleep := 0
 	var _data interface{}
 	if len(data) > 0 {
 		_data = data[0]
@@ -194,6 +194,7 @@ func (this *TemplateController) JsonSuccess(message interface{}, data ...interfa
 	if len(data) > 2 {
 		sleep = data[2].(int)
 	}
+	fmt.Printf("hello------------------>>>>" + "\n")
 	this.Data["json"] = JsonResponse{
 		Code:    1,
 		Message: message,

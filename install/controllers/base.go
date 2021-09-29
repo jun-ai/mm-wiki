@@ -76,7 +76,7 @@ func (this *BaseController) view(viewName string) {
 func (this *BaseController) viewError(errorMessage string, data ...interface{}) {
 	this.Layout = "layout/install.html"
 	redirect := "/"
-	sleep := 2000
+	sleep := 0
 	if len(data) > 0 {
 		redirect = data[0].(string)
 	}
