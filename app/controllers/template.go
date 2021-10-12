@@ -194,7 +194,7 @@ func (this *TemplateController) JsonSuccess(message interface{}, data ...interfa
 	if len(data) > 2 {
 		sleep = data[2].(int)
 	}
-	fmt.Printf("hello------------------>>>>" + "\n")
+	//fmt.Printf("hello------------------>>>>" + "\n")
 	this.Data["json"] = JsonResponse{
 		Code:    1,
 		Message: message,

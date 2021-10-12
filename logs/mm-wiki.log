@@ -50,3 +50,5 @@
 2021/09/28 15:55:05.081 [D] [controller.go:306]  template Execute err: template: paginator/default.html:1:5: executing "paginator/default.html" at <gt .paginator.Nums 0>: error calling gt: invalid type for comparison
 2021/09/28 15:55:23.063 [D] [controller.go:306]  template Execute err: template: paginator/default.html:1:5: executing "paginator/default.html" at <gt .paginator.Nums 0>: error calling gt: invalid type for comparison
 2021/09/28 15:56:13.872 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/10/12 14:18:17.726 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/10/12 14:30:57.437 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
