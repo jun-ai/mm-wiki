@@ -1,0 +1,45 @@
+2021/09/24 09:58:09.623 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/24 10:05:50.690 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/24 12:12:33.727 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/24 16:53:48.632 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/24 17:05:17.856 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/24 21:34:48.449 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/24 21:35:09.062 [server.go:3157]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/09/24 21:39:08.970 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/24 21:39:14.660 [server.go:3157]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/09/24 21:39:16.839 [server.go:3157]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/09/24 21:39:17.891 [server.go:3157]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/09/24 21:39:19.157 [server.go:3157]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/09/24 21:40:23.919 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/24 21:42:43.827 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/24 21:44:55.232 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/24 21:45:39.767 [server.go:3157]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/09/24 21:45:42.447 [server.go:3157]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/09/24 21:45:53.866 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/24 21:46:09.559 [server.go:3157]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/09/24 21:49:13.210 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/24 21:49:19.490 [server.go:3157]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/09/24 21:52:26.403 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/24 21:52:32.732 [server.go:3157]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/09/24 21:55:46.051 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/24 21:56:43.563 [server.go:3157]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/09/24 21:59:47.494 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/24 22:00:31.999 [server.go:3157]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/09/24 22:03:47.537 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/24 22:04:20.959 [C] [panic.go:1047]  the request url is  /author/visitor
+2021/09/24 22:04:20.959 [C] [panic.go:1047]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2021/09/24 22:04:20.959 [C] [panic.go:1047]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:1047
+2021/09/24 22:04:20.959 [C] [panic.go:1047]  H:/Go_Tools/Go/go1.17/src/runtime/panic.go:221
+2021/09/24 22:04:20.959 [C] [panic.go:1047]  H:/Go_Tools/Go/go1.17/src/runtime/signal_windows.go:254
+2021/09/24 22:04:20.959 [C] [panic.go:1047]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/controller.go:624
+2021/09/24 22:04:20.959 [C] [panic.go:1047]  H:/Go_Tools/Go_WorkPlace/mm-wiki_20210714/app/controllers/author.go:77
+2021/09/24 22:04:20.959 [C] [panic.go:1047]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:543
+2021/09/24 22:04:20.959 [C] [panic.go:1047]  H:/Go_Tools/Go/go1.17/src/reflect/value.go:339
+2021/09/24 22:04:20.959 [C] [panic.go:1047]  H:/Go_Tools/Go_WorkPlace/pkg/mod/github.com/astaxie/beego@v1.12.0/router.go:853
+2021/09/24 22:04:20.960 [C] [panic.go:1047]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:2878
+2021/09/24 22:04:20.960 [C] [panic.go:1047]  H:/Go_Tools/Go/go1.17/src/net/http/server.go:1929
+2021/09/24 22:04:20.960 [C] [panic.go:1047]  H:/Go_Tools/Go/go1.17/src/runtime/asm_amd64.s:1581
+2021/09/24 22:04:20.961 [server.go:3157]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/09/24 22:07:18.347 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
+2021/09/24 22:07:34.777 [server.go:3157]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/09/24 22:11:09.100 [I] [asm_amd64.s:1581]  http server Running on http://127.0.0.1:8089
